@@ -1,0 +1,15 @@
+<!-- Did some styling with the title and text myself -->
+<h1 style="text-align: center; font-family:verdana">CSCI 169: Tic Tac Toe</h1>
+<p style="text-align: center; font-family:verdana">Let's play some tic tac toe!</p>
+
+<!-- Play! button from tutorial -->
+<form action="/games" method="post" style="text-align: center">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="submit" value="Play!" style="font-size: 40px; font-family:verdana">
+</form>
+
+<!-- Added this myself -->
+<br></br>
+<div class="title_img">
+    <%= image_tag "game_imgs/ttt.jpg", height: 500%>
+</div>

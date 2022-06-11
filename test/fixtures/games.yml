@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  state: 
+  symbol: MyString
+  turns: MyString
+
+two:
+  state: 
+  symbol: MyString
+  turns: MyString

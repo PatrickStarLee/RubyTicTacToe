@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+}
+
+.cell {
+    flex-grow: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.title_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xo_img {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonStyle {
+    font-family: cursive; 
+    font-size: 50px; 
+    height: 90px; 
+    border-radius: 100px;
+}
